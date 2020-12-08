@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #fff;
+}
+
+.form-inline {
+  justify-content: center;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+#contact {
+  border-radius: 3rem;
+  color: #0047ba;
+  border-color: #0047ba;
+}
+
+#contact:hover {
+  background-color: #0047ba;
+  color: #fff;
+}
+
+
+@media (max-width: 768px) {
+  .btn {
+    width: 50%;
+  }
+}
