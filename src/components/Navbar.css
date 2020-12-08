@@ -10,6 +10,15 @@
   align-items: center;
 }
 
+.navbar-brand {
+  color: #0047ba !important;
+  font-weight: bold;
+}
+
+.navbar-collapse {
+  font-size: 1.25rem;
+}
+
 #contact {
   border-radius: 3rem;
   color: #0047ba;
