@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Roboto', sans-serif,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -8,6 +8,10 @@ body {
   overflow: auto;
   height: 100%;
   font-size: 1em;
+}
+
+h1 {
+  font-family: 'Montserrat', 'Roboto', sans-serif
 }
 
 code {
