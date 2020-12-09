@@ -1,0 +1,13 @@
+.skills {
+  margin-top: -14rem;
+  padding-bottom: 1rem;
+}
+
+#skills-card {
+  border-radius: 12px;
+  width: 75%;
+  max-width: 1200px;
+  margin: auto;
+  /* this height is temporary  until we add more to the div*/
+  height: 500px;
+}
