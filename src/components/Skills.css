@@ -6,8 +6,13 @@
 #skills-card {
   border-radius: 12px;
   width: 75%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
   /* this height is temporary  until we add more to the div*/
   height: 500px;
+}
+
+h1 {
+  padding-bottom: 1rem;
+  font-weight: bold;
 }
