@@ -3,16 +3,35 @@
   padding-bottom: 1rem;
 }
 
-#skills-card {
+.skills-card {
+  background-color: white;
+  background-clip: border-box;
   border-radius: 12px;
-  width: 75%;
-  max-width: 1000px;
+  border: 1px solid;
+  width: 100%;
+  max-width: 1400px;
   margin: auto;
-  /* this height is temporary  until we add more to the div*/
-  height: 500px;
+}
+
+.skills-card div {
+  padding: 1.25rem;
+  min-height: 1px;
+}
+
+.bd-r {
+  border-right: 1px solid #E6ECf8;
 }
 
 h1 {
   padding-bottom: 1rem;
   font-weight: bold;
+}
+
+h4 {
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
