@@ -1,3 +1,10 @@
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero {
   height: 100vh;
 }
@@ -16,11 +23,11 @@
   white-space: nowrap;
   overflow: hidden;
   margin: 0 auto;
+  font-size: 5vmin;
 }
 
 .typewriter h1:nth-child(1) {
   width: 7.8em;
-  /* display: inline-block; */
   -webkit-animation: type 2s steps(40, end);
   animation: type 2s steps(40, end);
   -webkit-animation-fill-mode: forwards;
@@ -124,4 +131,9 @@
 	100% {
 		opacity: 1;
 	}
+}
+
+.fade-in img {
+  max-width: 250px;
+  width: 100%;
 }
