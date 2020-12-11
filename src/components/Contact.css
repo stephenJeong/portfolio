@@ -5,9 +5,83 @@
 .contact-card {
   background-color: white;
   background-clip: border-box;
-  border-radius: 12px;
   border: 1px transparent;
-  width: 100%;
-  max-width: 1400px;
+  width: 75%;
+  max-width: 700px;
   margin: auto;
+}
+
+.card {
+  max-width: 1000px;
+  margin: 2rem auto 0 auto;
+  border-radius: 12px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.contact-card .btn:link,
+.contact-card .btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 3rem;
+    transition: all .2s;
+    /* position: absolute; */
+}
+
+.contact-card .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-card .btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-card .btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.contact-card .btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.contact-card .btn-white::after {
+    background-color: #fff;
+}
+
+.contact-card .btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.contact-card .btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }

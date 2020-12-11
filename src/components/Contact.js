@@ -3,14 +3,13 @@ import './Contact.css';
 function Contact() {
   return (
     <section id="contact">
-      <div>
-      <div class="card text-center mw-l">
-        <div class="card-body contact-card">
-          <h5 class="card-title">reach out for contact</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div className="card text-center">
+        <div className="card-body contact-card">
+          <h5 className="card-title">Interested in working together?</h5>
+          <p className="card-text">Let's meet for some virtual coffee.</p>
+          {/* <a href="#" className="button">I'M IN!</a> */}
+          <a href="#" className="btn btn-primary">COUNT ME IN!</a>
         </div>
-      </div>
       </div>
     </section>
   );
