@@ -21,14 +21,14 @@
   font-size: 1.25rem;
 }
 
-#contact {
+#contact-bt {
   border-radius: 3rem;
   color: #0047ba;
   border-color: #0047ba;
   font-size: 1.2rem;
 }
 
-#contact:hover {
+#contact-bt:hover {
   background-color: #0047ba;
   color: #fff;
 }

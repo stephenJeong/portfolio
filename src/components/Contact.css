@@ -1,0 +1,13 @@
+#contact {
+  margin-bottom: -10rem;
+}
+
+.contact-card {
+  background-color: white;
+  background-clip: border-box;
+  border-radius: 12px;
+  border: 1px transparent;
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
