@@ -3,7 +3,7 @@ import './Navbar.css';
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-md navbar-light ml-2">
-      {/* <a className="navbar-brand" href="#">Stephen Jeong</a> */}
+      <a className="navbar-brand" href="#">Stephen Jeong</a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
