@@ -4,7 +4,7 @@ function Footer() {
   return (
     <section id="footer">
       <div className="mw-l text-center">
-        <div>
+        <div className="social">
           <a className="btn" href="https://www.linkedin.com/in/stephenjeong/">
             <i className="fa fa-linkedin fa-2x"></i>
           </a>

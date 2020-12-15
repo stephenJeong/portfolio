@@ -42,3 +42,7 @@ ul {
   width: 50%;
   padding-bottom: 10px;
 }
+
+.skills-card .fa {
+  color: #3BCDEA;
+}

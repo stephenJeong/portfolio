@@ -1,7 +1,4 @@
 import './Skills.css';
-import frontend from '../frontend.png';
-import backend from '../backend.png';
-import database from '../database.png';
 
 function Skills() {
   return (
@@ -9,7 +6,7 @@ function Skills() {
       <div className="container">
         <div className="row skills-card">
           <div className="col col-sm bd-r">
-            <img className="icon" src={frontend} />
+            <i className="fa fa-code fa-3x"></i>
             <h4>Frontend</h4>
             <ul>
               <li>React</li>
@@ -20,7 +17,7 @@ function Skills() {
             </ul>
           </div>
           <div className="col col-sm bd-r">
-            <img className="icon" src={backend} />
+            <i className="fa fa-cogs fa-3x"></i>
             <h4>Backend</h4>
             <ul>
               <li>Node.js</li>
@@ -28,7 +25,7 @@ function Skills() {
             </ul>
         </div>
           <div className="col col-sm">
-           <img className="icon" src={database} />
+            <i class="fa fa-database fa-3x"></i>
             <h4>Databases</h4>
             <ul>
               <li>MySQL</li>
