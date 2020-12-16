@@ -14,10 +14,10 @@ function Navbar() {
               <a className="nav-link" href="/#about">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#/skills">Skills</a>
+              <a className="nav-link" href="/#skills">Skills</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#/projects">Projects</a>
+              <a className="nav-link" href="/#projects">Projects</a>
             </li>
           </ul>
           <form className="form-inline my-2 my-lg-0">
