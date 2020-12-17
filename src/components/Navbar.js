@@ -20,9 +20,11 @@ function Navbar() {
               <a className="nav-link" href="/#projects">Projects</a>
             </li>
           </ul>
-          <button type="button" id="contact-bt" className="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#modalForm">
-              Say Hello
-          </button>
+          <div className="nav-contact">
+            <button type="button" id="contact-bt" className="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#modalForm">
+                Say Hello
+            </button>
+          </div>
         </div>
       </nav>
     </div>
