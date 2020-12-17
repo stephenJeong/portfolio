@@ -1,6 +1,6 @@
 function Form() {
   return (
-    <form className="text-left" name="contactForm" method="post" data-netlify="true">
+    <form className="text-left" name="contactForm" method="post" data-netlify="true" netlify>
       <input type="hidden" name="form-name" value="contactForm" />
       <div className="form-group">
         <label for="name">Full Name</label>
@@ -10,10 +10,10 @@ function Form() {
         <label for="email">Email</label>
         <input type="email" className="form-control" id="email" placeholder="Enter Email" />
       </div>
-      <div className="form-group">
+      {/* <div className="form-group">
         <label for="message">Message</label><br/>
         <textarea className="form-control" id="message" rows="4"></textarea>
-      </div>
+      </div> */}
       <button type="submit" className="btn btn-primary">Submit</button>
   </form>
   );
