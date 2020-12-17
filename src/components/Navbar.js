@@ -1,4 +1,6 @@
 import './Navbar.css';
+import Modal from './Modal';
+import Form from './Form';
 
 function Navbar() {
   return (
@@ -20,7 +22,9 @@ function Navbar() {
               <a className="nav-link" href="/#projects">Projects</a>
             </li>
           </ul>
-          <button id="contact-bt" className="btn btn-outline-success my-2 my-sm-0" type="button" data-toggle="modal" data-target="#contactForm">Say Hello</button>
+          <button type="button" id="contact-bt" className="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#modalForm">
+              Say Hello
+          </button>
         </div>
       </nav>
     </div>

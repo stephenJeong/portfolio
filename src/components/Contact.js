@@ -49,10 +49,7 @@ class Contact extends React.Component {
           <div className="card-body contact-card">
             <h5 className="card-title">Interested in working together?</h5>
             <p className="card-text">Let's meet for some virtual coffee.</p>
-            {/* <a href="javascript:;" className="btn btn-primary" data-toggle="modal" data-target="#contactForm" onClick={e => this.modalOpen(e)}>
-              COUNT ME IN!
-            </a> */}
-            <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+            <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#modalForm">
               COUNT ME IN!
             </button>
             <Modal>

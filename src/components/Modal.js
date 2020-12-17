@@ -1,7 +1,7 @@
 const Modal = ({ children }) => {
   return (
     // <div className={showHideclassName}>
-    <div className="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div className="modal fade" id="modalForm" tabindex="-1" role="dialog" aria-labelledby="modalFormTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -19,12 +19,6 @@ const Modal = ({ children }) => {
           </div>
         </div>
       </div>
-      {/* <div className="modal-container fade">
-        {children}
-        <a href="javascript:;" className="modal-close" onClick={handleClose}>
-          close
-        </a>
-      </div> */}
     </div>
   );
 };
