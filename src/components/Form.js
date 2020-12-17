@@ -1,6 +1,7 @@
 function Form() {
   return (
-    <form className="text-left" name="contactForm" method="POST" data-netlify="true">
+    <form className="text-left" name="contactForm" method="post" data-netlify="true">
+      <input type="hidden" name="form-name" value="contactForm" />
       <div className="form-group">
         <label for="name">Full Name</label>
         <input type="text" className="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter Name" />
