@@ -1,12 +1,15 @@
 import './Skills.css';
+import frontend from '../icon-frontend.png';
+import backend from '../icon-backend.png';
+import database from '../icon-database.png';
 
 function Skills() {
   return (
     <section className="skills align-middle text-center" id="skills">
       <div className="container">
-        <div className="row skills-card">
+        <div className="row skills-card icon">
           <div className="col col-sm bd-r">
-            <i className="fa fa-code fa-3x"></i>
+            <img src={frontend} alt="Frontend" />
             <h4>Frontend</h4>
             <ul>
               <li>React</li>
@@ -17,15 +20,15 @@ function Skills() {
             </ul>
           </div>
           <div className="col col-sm bd-r">
-            <i className="fa fa-cogs fa-3x"></i>
+            <img src={backend} alt="Backend" />
             <h4>Backend</h4>
             <ul>
               <li>Node.js</li>
               <li>Express</li>
             </ul>
-        </div>
+          </div>
           <div className="col col-sm">
-            <i class="fa fa-database fa-3x"></i>
+            <img src={database} alt="Database" />
             <h4>Databases</h4>
             <ul>
               <li>MySQL</li>
