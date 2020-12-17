@@ -1,34 +1,19 @@
-function Form({ handleSubmit }) {
+function Form() {
   return (
-    // <form name="contact" method="POST" data-netlify="true">
-    //   <p>
-    //     <label>Name: <input type="text" name="name" /></label>
-    //   </p>
-    //   <p>
-    //     <label>Email: <input type="email" name="email" /></label>
-    //   </p>
-    //   <p>
-    //     <label>Message: <textarea name="message"></textarea></label>
-    //   </p>
-    //   <p>
-    //     <button type="submit" onClick={e => handleSubmit(e)}>Send</button>
-    //   </p>
-    // </form>
-    <form>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <form className="text-left">
+      <div className="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" className="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter Name" />
       </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+      <div className="form-group">
+        <label for="email">Email</label>
+        <input type="email" className="form-control" id="email" placeholder="Enter Email" />
       </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      <div className="form-group">
+        <label for="message">Message</label><br/>
+        <textarea class="form-control" id="message" rows="4"></textarea>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" className="btn btn-primary">Submit</button>
   </form>
   );
 }

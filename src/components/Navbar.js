@@ -1,6 +1,4 @@
 import './Navbar.css';
-import Modal from './Modal';
-import Form from './Form';
 
 function Navbar() {
   return (
