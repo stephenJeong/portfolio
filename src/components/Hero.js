@@ -1,4 +1,5 @@
 import './Hero.css';
+import headshot from '../headshot.jpeg';
 
 function Hero() {
   return (
@@ -9,7 +10,7 @@ function Hero() {
         {/* <h4>sub heading</h4> */}
       </div>
       <div className="fade-in">
-        <img src="https://drive.google.com/uc?id=19t56rNeBmZKienOcd-HR2sfcVIhv4Cs9" alt="Stephen Jeong" />
+        <img src={headshot} alt="Stephen Jeong" />
       </div>
     </section>
   );
