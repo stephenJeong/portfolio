@@ -1,6 +1,6 @@
 function Form() {
   return (
-    <form className="text-left" name="contactForm" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+    <form className="text-left" name="contactForm" method="post">
       <input type="hidden" name="form-name" value="contactForm" />
       <div className="form-group">
         <label for="name">Full Name</label>
