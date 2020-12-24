@@ -7,9 +7,8 @@ class Form extends Component {
      this.props.history.push('/thank-you');
   }
   render() {
-
     return (
-      <form className="text-left" name="contactForm" method="post">
+      <form className="text-left" name="contactForm" method="post" id="contactForm" onSubmit={this.submitForm.bind(this)}>
         <input type="hidden" name="form-name" value="contactForm" />
         <div className="form-group">
           <label for="name">Full Name</label>

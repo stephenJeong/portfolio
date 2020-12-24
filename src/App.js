@@ -1,22 +1,22 @@
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
+import Home from './components/Home';
+import ThankYou from './components/ThankYou';
 import Footer from './components/Footer';
-import Contact from './components/Contact';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path="/" exact component={() => <Home />} />
+          <Route path="/thank-you" exact component={() => <ThankYou />} />
+        </Switch>
+        <Footer />
+      </Router>
+
     </div>
   );
 }

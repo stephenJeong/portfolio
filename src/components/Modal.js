@@ -1,6 +1,5 @@
 const Modal = ({ children }) => {
   return (
-    // <div className={showHideclassName}>
     <div className="modal fade" id="modalForm" tabindex="-1" role="dialog" aria-labelledby="modalFormTitle" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered" role="document">
         <div className="modal-content">
