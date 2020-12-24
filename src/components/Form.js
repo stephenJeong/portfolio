@@ -8,8 +8,8 @@ class Form extends Component {
   }
   render() {
     return (
-      // <form className="text-left" name="contactForm" method="post" data-netlify="true" id="contactForm2" action="/thank-you#top" onSubmit={this.submitForm.bind(this)}>
-      <form className="text-left" name="contactForm" method="post">
+      // <form className="text-left" name="contactForm" method="post" data-netlify="true" id="contactForm2"  onSubmit={this.submitForm.bind(this)}>
+      <form className="text-left" name="contactForm" method="post" action="/thank-you#top">
         <input type="hidden" name="form-name" value="contactForm" />
         <div className="form-group">
           <label for="name">Full Name</label>
