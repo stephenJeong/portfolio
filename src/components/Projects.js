@@ -7,7 +7,7 @@ function Projects() {
   return (
     <section id="projects">
       <div className="mw-l">
-        <h2 className="display-4 text-center mb-5">Personal Projects</h2>
+        <h1 className="text-center mb-5">Personal Projects</h1>
         <div className="row">
           <div className="col">
             <div className="card">
