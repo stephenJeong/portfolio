@@ -2,10 +2,24 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 
 class Form extends Component {
-  submitForm(e) {
-     e.preventDefault();
-     this.props.history.push('/thank-you#top');
+  encode(data) {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&")
   }
+
+  submitForm(e) {
+    e.preventDefault()
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({
+        "form-name": e.target.getAttribute("name"),
+        ...name
+      })
+    }).then(() => navigate("/thank-you/")).catch(error => alert(error))
+  }
+
   render() {
     return (
       // <form className="text-left" name="contactForm" method="post" data-netlify="true" id="contactForm2"  onSubmit={this.submitForm.bind(this)}>
