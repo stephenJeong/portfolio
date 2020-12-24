@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom';
 class Form extends Component {
   submitForm(e) {
      e.preventDefault();
-     this.props.history.push('/thank-you');
+     this.props.history.push('/thank-you#top');
   }
   render() {
     return (
