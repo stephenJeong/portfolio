@@ -1,3 +1,4 @@
+import './ThankYou.css';
 
 function ThankYou() {
   return (
