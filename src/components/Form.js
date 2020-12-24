@@ -8,7 +8,7 @@ class Form extends Component {
   }
   render() {
     return (
-      <form className="text-left" name="contactForm" method="post" id="contactForm" action="/thank-you">
+      <form className="text-left" name="contactForm" method="post" id="contactForm">
         <input type="hidden" name="form-name" value="contactForm" />
         <div className="form-group">
           <label for="name">Full Name</label>
