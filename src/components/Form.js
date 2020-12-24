@@ -6,10 +6,9 @@ class Form extends Component {
      e.preventDefault();
      this.props.history.push('/thank-you#top');
   }
-
   render() {
     return (
-      <form className="text-left" name="contactForm" method="post" data-netlify="true" id="contactForm" action="/thank-you#top">
+      <form className="text-left" name="contactForm" method="post" data-netlify="true" id="contactForm" action="/thank-you#top" onSubmit={this.submitForm.bind(this)}>
         <input type="hidden" name="form-name" value="contactForm" />
         <div className="form-group">
           <label for="name">Full Name</label>
