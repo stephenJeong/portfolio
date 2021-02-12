@@ -1,5 +1,5 @@
 import './Hero.css';
-import headshot from '../headshot.jpg';
+import headshot from '../images/headshot.jpg';
 
 function Hero() {
   return (

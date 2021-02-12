@@ -1,7 +1,7 @@
 import './Skills.css';
-import frontend from '../icon-frontend.png';
-import backend from '../icon-backend.png';
-import database from '../icon-database.png';
+import frontend from '../images/icon-frontend.png';
+import backend from '../images/icon-backend.png';
+import database from '../images/icon-database.png';
 
 function Skills() {
   return (

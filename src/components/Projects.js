@@ -1,15 +1,29 @@
 import './Projects.css';
-import basketball from '../TN-basketball.jpg';
-import gameOverview from '../TN-gameOverview.jpg';
-import photoCarousel from '../TN-photoCarousel.jpg';
+import strongRoots from '../images/logo-green-SR.png';
+import basketball from '../images/TN-basketball.jpg';
+import gameOverview from '../images/TN-gameOverview.jpg';
+import photoCarousel from '../images/TN-photoCarousel.jpg';
 
 function Projects() {
   return (
     <section id="projects">
       <div className="mw-l">
         <h1 className="text-center mb-5">Personal Projects</h1>
-        <div className="row">
-          <div className="col">
+        <div className="row justify-content-center">
+          <div className="col-4">
+            <div className="card">
+              <div id="strongRoots" className="text-center">
+                <img className="card-img-top" src={strongRoots} alt="Strong Roots Therapy" />
+              </div>
+              <div className="card-body">
+                <h5 className="card-title">Strong Roots Therapy</h5>
+                <p className="card-text">Small business website for a local therapy practice that I built using React and Boostrap.</p>
+                <a href="https://romantic-blackwell-4ee08f.netlify.app/" className="card-link" target="_blank" rel="noreferrer">Visit Site</a>
+                <a href="https://github.com/stephenJeong/strongRoots" className="card-link" target="_blank" rel="noreferrer">GitHub Repo</a>
+              </div>
+            </div>
+          </div>
+          <div className="col-4">
             <div className="card">
               <img className="card-img-top" src={basketball} alt="Basketball League Stats" />
               <div className="card-body">
@@ -20,7 +34,9 @@ function Projects() {
               </div>
             </div>
           </div>
-          <div className="col">
+        </div>
+        <div className="row justify-content-center">
+          <div className="col-4">
             <div className="card">
               <img className="card-img-top" src={gameOverview} alt="Game Overview" />
               <div className="card-body">
@@ -30,7 +46,7 @@ function Projects() {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-4">
             <div className="card">
                 <img className="card-img-top" src={photoCarousel} alt="Carousel" />
                 <div className="card-body">
