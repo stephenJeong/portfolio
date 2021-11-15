@@ -18,7 +18,7 @@ function Projects() {
               <div className="card-body">
                 <h5 className="card-title">Strong Roots Therapy</h5>
                 <p className="card-text">Small business website for a local therapy practice that I built using React and Boostrap.</p>
-                <a href="https://romantic-blackwell-4ee08f.netlify.app/" className="card-link" target="_blank" rel="noreferrer">Visit Site</a>
+                <a href="https://www.buildstrongroots.com/" className="card-link" target="_blank" rel="noreferrer">Visit Site</a>
                 <a href="https://github.com/stephenJeong/strongRoots" className="card-link" target="_blank" rel="noreferrer">GitHub Repo</a>
               </div>
             </div>
